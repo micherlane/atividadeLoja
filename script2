@@ -1,0 +1,4 @@
+dotnet-aspnet-codegenerator controller -name UsuariosController -m Usuario -dc MyDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries &&
+dotnet-aspnet-codegenerator controller -name CategoriasController -m Categoria -dc MyDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries &&
+dotnet-aspnet-codegenerator controller -name ProdutosController -m Produto -dc MyDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries &&
+dotnet-aspnet-codegenerator controller -name CarrinhosController -m Carrinho -dc MyDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
